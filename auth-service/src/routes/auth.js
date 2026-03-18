@@ -19,6 +19,7 @@ async function logToDB({ level, event, userId, ip, message, meta }) {
   } catch (e) { console.error('[auth-log]', e.message); }
 }
 
+
 // ── Helper: ส่ง activity event ไปหา Activity Service (fire-and-forget) ──
 function logActivity({ userId, username, eventType, entityType, entityId, summary, meta }) {
   const ACTIVITY_URL = process.env.ACTIVITY_SERVICE_URL || 'http://activity-service:3003';
