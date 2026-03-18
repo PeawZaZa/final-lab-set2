@@ -182,9 +182,9 @@ curl http://localhost:3003/api/activity/health
 ## 9. วิธีทดสอบบน Cloud
 
 ```bash
-AUTH_URL="https://your-auth-xxx.up.railway.app"
-TASK_URL="https://your-task-xxx.up.railway.app"
-ACTIVITY_URL="https://your-activity-xxx.up.railway.app"
+AUTH_URL="https://auth-service-production-fd5b.up.railway.app"
+TASK_URL="determined-grace-production-280c.up.railway.app"
+ACTIVITY_URL="activity-service-production-e53a.up.railway.app"
 
 # Register
 curl -X POST $AUTH_URL/api/auth/register \
