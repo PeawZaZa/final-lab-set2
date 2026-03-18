@@ -11,7 +11,7 @@
 
 ## Work Allocation
 
-### นายปวริศ คูณศรี (67543210037-7)
+### [นายปวริศ คูณศรี (67543210037-7)](INDIVIDUAL_REPORT_675432100377.md)
 
 - **Auth Service** — `auth-service/` ทั้งหมด
   - เพิ่ม `POST /api/auth/register` route
@@ -29,7 +29,7 @@
   - อัปเดต `ACTIVITY_SERVICE_URL` ให้ถูกต้องหลัง deploy
 - **Screenshot** — ทดสอบและถ่าย Test Cases ทุกข้อ
 
-### นายพนาวุฒน์ อภิปสันติ (67543210040-1)
+### [นายพนาวุฒน์ อภิปสันติ (67543210040-1)](INDIVIDUAL_REPORT_67543210040-1.md)
 
 - **Task Service** — `task-service/` ทั้งหมด
   - เพิ่ม `logActivity()` ใน CRUD routes ทุก endpoint
