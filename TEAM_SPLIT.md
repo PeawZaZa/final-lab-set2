@@ -21,6 +21,9 @@
   - `auth-service/init.sql` — users table + logs table + seed users
   - Deploy Auth Service + auth-db บน Railway
   - ตั้งค่า Environment Variables บน Railway
+- **Frontend** -   - `config.js` — Railway Service URLs
+  
+- **Screenshot** - ทดสอบแต่ละ Test case
 
 - **docker-compose.yml** + `.env.example`
 
@@ -41,17 +44,16 @@
   - อัปเดต `ACTIVITY_SERVICE_URL` ใน Auth และ Task Service
 
 - **Frontend** — `frontend/` ทั้งหมด
-  - `index.html` — ปรับจาก Set 1: เพิ่ม Register tab, ลบ Profile tab, ลบ Log Dashboard, เพิ่ม Activity link, ใช้ `config.js`
+  - `index.html` — ปรับจาก Set 1: เพิ่ม Register tab, ลบ Profile tab, ลบ Log Dashboard, เพิ่ม Activity link
   - `activity.html` — Activity Timeline (สร้างใหม่)
-  - `config.js` — Railway Service URLs
+
 
 ---
 
 ## Shared Responsibilities
 
 - Architecture diagram
-- End-to-end testing บน Cloud
-- README.md + screenshots
+- README.md
 - INDIVIDUAL_REPORT ของแต่ละคน
 
 ---
